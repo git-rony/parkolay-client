@@ -1,8 +1,8 @@
 import bannerImage1 from "../../../public/assets/products/bannerImage1.png";
 const Products = () => {
   return (
-    <div className="bg-[#E0F2F3] h-[660px]">
-      <div className="mx-auto container">
+    <div className="bg-[#E0F2F3] md:h-[660px] flex items-center">
+      <div className="mx-auto container flex md:flex-row flex-col md:items-center justify-between">
         <div>
           <h2 className="uppercase text-secondaryColor font-semibold ">
             car lifts
